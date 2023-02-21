@@ -8,12 +8,10 @@ export const ContactForm = ({ add, contacts }) => {
 
   const handleInputNameChange = e => {
     setUser({ ...user, name: e.currentTarget.value });
-    console.log(user);
   };
 
   const handleInputTelChange = e => {
     setUser({ ...user, number: e.currentTarget.value });
-    console.log(user);
   };
 
   const handleFormSubmit = e => {
